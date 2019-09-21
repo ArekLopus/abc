@@ -1,0 +1,60 @@
+
+.cimain {
+    width: 100%;
+    height: 30px;
+    padding: 7px;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+
+    background-color: var(--background-color, black);
+    
+    border-color: var(--border-color, coral);
+    border-style: var(--border-style, solid);
+    border-width: var(--border-width, 1px);
+}
+
+.cimain_up {
+    top: 0;
+}
+.cimain_down {
+    bottom: 0;
+}
+
+
+#ciInfoText {
+    display: inline-flex;
+    align-items: center;
+    height: inherit;
+    width: fit-content;
+
+    color: var(--message-text-color, white);
+    font-size: var(--text-font-size, 15px);
+    margin-left: var(--text-margin-left, 0px);
+}
+
+#ciButtons {
+    display: inline-flex;
+    align-items: center;
+    height: inherit;
+    float: right;
+    
+    margin-right: var(--buttons-margin-right, 10px);
+}
+
+#acceptBtn {
+    margin-right: var(--space-between-buttons, 10px);
+}
+
+
+.accepted_down {
+    bottom: -50px;
+    transition: 1s;
+}
+
+.accepted_up {
+    top: -50px;
+    transition: 1s;
+}

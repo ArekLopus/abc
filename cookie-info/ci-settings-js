@@ -1,0 +1,6 @@
+
+const infoText = 'This page uses cookies and LocalStorage to store information about the page.'
+const elementPosition = 'down';
+const set_cookie = true;
+const cookieDays = 365;
+const rejectedURL = 'https://google.com';

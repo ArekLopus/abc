@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Testing CookieInfo</title>
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <script src="./cookie-info/CookieInfo.js"></script>
+</head>
+
+<body style="background-color: black; color: whitesmoke;">
+
+
+    <cookie-info id="cookieInfo" position='down' cookie='false' rejected='https://stackoverflow.com' ></cookie-info>
+
+
+    <script>
+        // browser-sync . -f . --index cookieInfo.html
+        
+        
+        // • <cookie-info> tag attributes:
+        // cookie   - When 'Accept' button is clicked and cookie is set to true, sets a cookie to remember it
+        //            or not if set to false (default is true for 365 days).
+        // position - 'up' for top, 'down' for bottom of the page (default is 'down').
+        // message  - Information dispayed as a message.
+        // rejected - URL to redirect if 'Reject' button clicked (must be whole URL with http(s) protocol).
+        //            if '' or 'none' just closes the info window.
+        //            If proper URL redirects to this URL (default is 'https://google.com').
+
+        // • Configuration files
+        // ci-settings-css  - Uses CSSs custom properties. Names should be self-explanatory.
+        // ci-settings-js   - Settings related to attributes may also be set in this configuration file.
+        
+        // • component/CookieInfo.css and component/CookieInfo.htm
+        // These are externalized HTML and CSS files for easier modifications if needed.
+    </script>
+
+</body>
+
+
+
+</html>

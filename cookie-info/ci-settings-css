@@ -1,0 +1,16 @@
+* {
+
+    --message-text-color: yellow;
+    --background-color: rgba(90, 90, 90, 0.4);
+
+    --text-font-size: 17px;
+    
+    --text-margin-left: 6px;
+    --buttons-margin-right: 550px;
+    --space-between-buttons: 20px;
+
+    --border-color: coral;
+    --border-style: dotted;
+    --border-width: 1px;
+
+}
